@@ -1,0 +1,63 @@
+.flex-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav {
+	z-index: 10;
+	/* background: #ff512f;
+	background: -webkit-linear-gradient(to right, #f09819, #ff512f) !important;
+	background: linear-gradient(to right, #f09819, #ff512f) !important; */
+	font-size: large;
+}
+.orange-t {
+	color: #ff512f;
+	font-weight: 550;
+}
+.grad {
+	background: #ff512f;
+	background: -webkit-linear-gradient(to right, #323232, #ff512f) !important;
+	background-color: #2a2a72;
+	background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%) !important;
+}
+
+.text {
+	font-weight: 600;
+}
+.curve {
+	border-radius: 10px;
+}
+.card-panel {
+	align-content: center;
+	text-align: center;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+}
+/* ---- reset ---- */
+canvas {
+	display: block;
+	vertical-align: bottom;
+} /* ---- particles.js container ---- */
+
+#particles-js {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+#particles-js .flex-container {
+	position: absolute;
+}
+
+section {
+	height: 10px !important;
+}
+.title {
+	font-weight: 900;
+	font-size: 40px;
+	align-items: center;
+}
